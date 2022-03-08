@@ -16,6 +16,7 @@ html, body{
 body{
     display: flex;
     align-items: center;
+    flex-direction: column;
     background-color: var(--background-color-primary);
 }
 
@@ -30,11 +31,20 @@ body{
     column-gap: 10px;
 }
 
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    margin-top: 50px;
+}
+
 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 1px solid black;
     width: calc(100% / 10 - 10px);
-    text-align: center;
     padding: 10px;
 }
 
-
+.board{
+    background-color: yellow;
+}
