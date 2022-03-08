@@ -40,6 +40,4 @@ for (let x = 1; x <= 100; x++) {
     }
 
 }
-/*
-const element = `<div id="square-${squareIndex}" class="square">${squareIndex}</div>`;
-    divSquares.innerHTML += element; */
+
