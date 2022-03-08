@@ -18,6 +18,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: var(--background-color-primary);
+    font-family: 'Montserrat', sans-serif;
 }
 
 #container{
@@ -26,14 +27,18 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 3px solid black;
     row-gap: 10px;
     column-gap: 10px;
+    background-color: aqua;
+    box-shadow: 15px 10px 5px 5px rgb(85, 85, 85);
 }
 
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT';
-    margin-top: 50px;
+    margin-top: 30px;
+    font-size: 3rem;
+    box-shadow: 3px 3px 3px 2px rgb(56, 55, 55);
+    border-radius: 10px;
 }
 
 div{
@@ -44,6 +49,7 @@ div{
     width: calc(100% / 10 - 10px);
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 3px 2px 2px 2px rgb(56, 55, 55);
 }
 
 .board-color-number{
