@@ -24,23 +24,23 @@ for (let x = 1; x <= 100; x++) {
 
     if (x % 3 === 0 && x % 5 === 0) {
         console.log('FizzBuzz');
-        // MILESTONE 2 
-        element = `<div>FizzBuzz</div>`;
+        // MILESTONE 2 - MILESTONE 3
+        element = `<div class="board-color-all">FizzBuzz</div>`;
 
     } else if (x % 3 === 0) {
         console.log('Fizz');
-        // MILESTONE 2 
-        element = `<div>Fizz</div>`;
+        // MILESTONE 2 - MILESTONE 3
+        element = `<div class="board-color-fizz">Fizz</div>`;
 
     } else if (x % 5 === 0) {
         console.log('Buzz');
-        // MILESTONE 2 
-        element = `<div>Buzz</div>`;
+        // MILESTONE 2 - MILESTONE 3
+        element = `<div class="board-color-buzz">Buzz</div>`;
 
     } else {
         console.log(x);
-        // MILESTONE 2 
-        element = `<div>${x}</div>`;
+        // MILESTONE 2 - MILESTONE 3
+        element = `<div class="board-color-number">${x}</div>`;
 
     }
     containerVar.innerHTML += element;
