@@ -17,27 +17,32 @@ Applica uno stile differente a seconda del valore
    e per i valori che sono sia multipli di 3 che di 5.
 */
 
-let x;
-let containerVar = document.getElementById('container');
-
+const containerVar = document.getElementById('container');
+let element;
+// MILESTONE 1 
 for (let x = 1; x <= 100; x++) {
+
     if (x % 3 === 0 && x % 5 === 0) {
         console.log('FizzBuzz');
-        const element = `<div>FizzBuzz</div>`;
-        containerVar.innerHTML += element;
+        // MILESTONE 2 
+        element = `<div>FizzBuzz</div>`;
+
     } else if (x % 3 === 0) {
         console.log('Fizz');
-        const element = `<div>Fizz</div>`;
-        containerVar.innerHTML += element;
+        // MILESTONE 2 
+        element = `<div>Fizz</div>`;
+
     } else if (x % 5 === 0) {
         console.log('Buzz');
-        const element = `<div>Buzz</div>`;
-        containerVar.innerHTML += element;
+        // MILESTONE 2 
+        element = `<div>Buzz</div>`;
+
     } else {
         console.log(x);
-        const element = `<div>${x}</div>`;
-        containerVar.innerHTML += element;
-    }
+        // MILESTONE 2 
+        element = `<div>${x}</div>`;
 
+    }
+    containerVar.innerHTML += element;
 }
 
